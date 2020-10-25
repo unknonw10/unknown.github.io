@@ -1,0 +1,265 @@
+.logo p {
+  margin-left: 184px;
+}
+.container{
+	position: relative;
+	justify-content: center;
+	display: flex;
+  margin-top: 0px;
+}
+
+.card{
+	position: relative;
+	background: #eee;
+	color: #5555fa;
+	width: 300px;
+	height: 600px;
+	border-radius: 15px;
+  margin: 20px;
+  margin-top: 0px;
+	cursor: pointer; 
+	transition: all ease-in-out 1s;
+}
+
+.title{		
+  font-size: 24px;
+	padding: 2px;
+	text-align: center;
+	font-weight: lighter;
+  text-transform: uppercase;
+}
+.price{
+  margin-top: 25px;
+  font-size: 12px;
+	text-align: center;
+}
+.price h5{
+	font-size: 4em;
+	margin-top: 20px;
+  padding-top: 20px;
+  font-weight: 600;
+}
+.price h5 sup{
+	font-size: 25px;
+}
+.price p{
+	margin-top: -135px;
+	font-size:40px;
+	padding-bottom: 25px
+
+}
+.option{
+	position: relative;
+  padding-top: 50px;
+  font-weight: normal;
+  font-stretch: wider;
+}
+.option li{
+	text-align: center;
+	font-size: 22px;
+	padding: 8px;
+	font-weight: normal;
+	list-style: none;
+}
+button{
+	position: absolute;
+	bottom: 5%;
+	left: 30%;
+	outline: none;
+	border: none;
+	background: #5555fa;
+	color:#eee;
+	width: 100px;
+	height: 50px;
+	border-radius: 25px;
+	font-weight: lighter;
+	cursor: pointer; 
+	transition: all ease-in-out 1s;
+  box-shadow: 0 0 4px #0909e6;
+  font-size: 30px;
+}
+
+.card:hover{
+	box-shadow: 0 0 0 20em inset #5555fa;
+	color: #eee;
+	}
+
+.card:hover button{
+	background: #eee;
+	color:#5555fa;
+}
+.icon {
+	position: absolute;
+	top: 40%;
+	left: 30%;
+}
+.icon a {
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	background-color: #eee;
+	border-radius: 25px;
+	margin: 20px;
+	box-shadow: 3px 3px 10px #aeaeae,
+	-4px -4px 10px white;
+	text-align: center;
+	line-height: 90px;
+	font-size: 50px;
+	border:3px solid #eee;
+	color: #333;
+  transition: .3s;
+  padding-top: 1Opx;
+  margin-top: 200px;
+}
+
+.icon a:hover {
+	animation: border .6s alternate infinite linear;
+	background-color: #333;
+	color: #eee;
+}
+
+@keyframes border {
+	0% {
+		border:3px solid lightgreen;
+	}
+	50% {
+		border:3px solid salmon;
+	}
+	100% {
+		border:3px solid skyblue;
+	}
+}
+*{
+    margin: auto;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.subtitle {
+        margin: 0;
+        padding: 0 ;
+        color: #fff;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: large;
+}
+.fix-hr {
+    margin-left: 400px;
+    margin-right: 435px;
+}
+.toptitle {
+    font-family: 'Courier New', Courier, monospace;
+    padding-right: 0px;
+    color: #fff;
+}
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: auto;
+}
+nav{
+    background: #1d4ab3;
+    height: 50px;
+    width: 894px;
+    font-size: 30px;
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-left: 215px;
+    margin-top: 20px;
+    padding-bottom: 64px;
+    border-style: dotted;
+    border-color: black;
+    border-radius: 40px;
+    padding-top: 15px;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 325px ;
+    margin-bottom: 32px;
+    background-position: center;
+    padding-left: 160px;
+    color: white;
+    font-size: 25px;
+    border-style: double;
+    margin-right: 340px;
+}
+
+ul{
+   
+    display: inline-block;
+    margin-right: 335px;
+    margin-left: 7px;
+}
+ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin-left: 96px;
+    width: 178px;
+    height: 50px;
+    line-height: 50px;
+    padding-right: 15px;
+}
+
+ul li a{
+    
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 00px;
+}
+ul li a img {
+    width:40px;
+    height:40px;
+    margin-right: 10px;
+}
+.table-row{
+    display: table;
+    width: 80%;
+    margin: 10px auto;
+    font-family: monospace;
+    background: #ffffff;
+    padding: 12px 0;
+    color: #555;
+    font-size: 15px;
+    box-shadow: 0 1px 4px 0px rgba(0,0,50,0.3);
+    border-radius: 15px;
+    font-weight: bold;
+
+}
+.table-head{
+    background: #8665f7;
+    box-shadow: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+.table-head .table-cell{
+    border-right: none;
+    text-align: center;
+}
+.table-cell{
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    padding: 4px 0;
+    border-right: 1px solid #d6d4d4;
+    vertical-align: middle;
+}
+.first-cell{
+    text-align: left;
+    padding-left: 10px;
+}
+.last-cell{
+    border-right: none;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+
+@media only screen and (max-width: 600px) {
+  .table-row {
+    font-size: 11px;
+  }
+}
